@@ -41,6 +41,7 @@
 </div>
 <div id="impress" class="impress-not-supported">
 
+
   <div id="slide1" class="step" data-x="5000" data-y="0" data-z="0" data-rotate-z="0" data-rotate-x="0" data-rotate-y="0" data-scale="1">
        <div class="animated pulse"><h1>How Google Pays Taxes Where it Wants . . .
         </h1> </div>
@@ -100,17 +101,18 @@
         
       </div>
 
-                      <script> 
-                          $("#slide4").keydown(function(){
-                          $(".substep").addClass("animated fadeInRightBig");
-                           });
-                          </script>
+                     
 
 
         <div id="slide5" class="step slide" data-x="0" data-y="0" data-z="300" data-rotate-y="90"  data-scale="1">
            <img src="img/Ireland.png" alt=""/>  
     
         </div>
+             <script> 
+                          $("#slide5 img").click(function(){
+                          $("img").toggleClass("animated rotateOut");
+                           });
+                          </script>
 
 
         <div id="slide5" class="step slide" data-x="-300" data-y="0" data-z="600" data-rotate-y="180"  data-scale="1">
@@ -227,10 +229,6 @@
 </footer>
 
 
-
-
-
-
 </div>
 <script>
 $("body").click(function(e){
@@ -241,8 +239,8 @@ $("body").click(function(e){
     api.prev();
   }
 });
-
 </script>
+
 
 
 <script src="js/impress.js"></script>

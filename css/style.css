@@ -549,6 +549,7 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -559,6 +560,10 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 }
+
+
+
+
 ol, ul {
     list-style: none;
 }
@@ -582,6 +587,7 @@ body {
     min-height: 740px;
     background: #58595b;
     -webkit-font-smoothing: antialiased;
+
 }
 
 b, strong { font-weight: bold }
@@ -766,10 +772,6 @@ opacity: 1;
 
 /* on overview step everything is visible */
 
-#impress.step-overview .step {
-    opacity: 1;
-    cursor: pointer;
-}
 
 /*
  * SLIDE STEP STYLES
@@ -1617,7 +1619,7 @@ margin-top: 10%;
 }
 
 #slide5 img {
-  height: 100%;
+  height: 110%;
 }
 
 
@@ -1652,7 +1654,6 @@ line-height: 40px;
    -ms-transform: translateY(-30px);
     transform: translateY(-30px);
 opacity: 1;
-margin-top: 10%;
       -webkit-transition: all 1s linear;  
          -moz-transition: all 1s linear;  
           -ms-transition: all 1s linear;  
@@ -1661,11 +1662,16 @@ margin-top: 10%;
       -webkit-transition-delay: 1s;
       -moz-transition-delay: 1s;
       -ms-transition-delay: 1s;
-      transition-delay: 1s;
-     
+      transition-delay: 1s;     
 }
 
+#slide5.active a p {
+  margin-top: 15%;
+}
 
+#slide6.active a p {
+    margin-top: 10%;
+}
 
 
 #slide7 p , #slide8 p{
