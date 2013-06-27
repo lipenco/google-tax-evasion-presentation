@@ -18,6 +18,61 @@ FONTS///////////////////////////////*/
        }
 
 /*ANIMATIONS////////////////////////*/
+@-webkit-keyframes rotateOut {
+  0% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: rotate(0);
+    opacity: 1;
+  }
+  
+  100% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: rotate(200deg);
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes rotateOut {
+  0% {
+    -moz-transform-origin: center center;
+    -moz-transform: rotate(0);
+    opacity: 1;
+  }
+  
+  100% {
+    -moz-transform-origin: center center;
+    -moz-transform: rotate(200deg);
+    opacity: 0;
+  }
+}
+
+@-o-keyframes rotateOut {
+  0% {
+    -o-transform-origin: center center;
+    -o-transform: rotate(0);
+    opacity: 1;
+  }
+  
+  100% {
+    -o-transform-origin: center center;
+    -o-transform: rotate(200deg);
+    opacity: 0;
+  }
+}
+
+@keyframes rotateOut {
+  0% {
+    transform-origin: center center;
+    transform: rotate(0);
+    opacity: 1;
+  }
+  
+  100% {
+    transform-origin: center center;
+    transform: rotate(200deg);
+    opacity: 0;
+  }
+}
 
 @-webkit-keyframes moving {
 0%   { left: -250%;opacity: 0;
@@ -688,8 +743,6 @@ font-family: "homesteadp";
 opacity: 0;
 }
 
-
-
 #slide2.active a p {
 -webkit-transform: translateY(-30px);
 -moz-transform: translateY(-30px);
@@ -953,11 +1006,15 @@ text-align: center;
 margin-top: 8%;
 }
 
-span .red {
+.red {
   color: red;
-  font-family: 'homesteadh';
+  font-family: 'homesteadb';
 }
 
+.green {
+  color: green;
+  font-family: 'homesteadb';
+}
 
 #slide4.active a p {
 -webkit-transform: translateY(-30px);
@@ -1053,7 +1110,7 @@ opacity: 0;
 -ms-transform: translateY(-30px);
 transform: translateY(-30px);
 opacity: 1;
-margin-top: 15%;
+margin-top: 10%;
 -webkit-transition: all 1s linear;  
 -moz-transition: all 1s linear;  
 -ms-transition: all 1s linear;  
@@ -1063,6 +1120,38 @@ transition: all 1s linear;
 -moz-transition-delay: 1s;
 -ms-transition-delay: 1s;
 transition-delay: 1s;
+
+}
+
+#slide8.active .text {
+  margin-top: 25%;
+}
+
+
+
+#slide8.active .sand {
+  position: absolute;
+  top:-6%;
+  left:-1%;
+  text-align: center;
+
+  
+    -webkit-transition-delay: 3s;
+-moz-transition-delay: 3s;
+-ms-transition-delay: 3s;
+transition-delay: 3s;
+  -webkit-animation-name: rotateInDownRight;
+  -moz-animation-name: rotateInDownRight;
+  -o-animation-name: rotateInDownRight;
+  animation-name: rotateInDownRight;
+   -webkit-animation-duration: 3s;
+     -moz-animation-duration: 3s;
+       -o-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+     -moz-animation-fill-mode: both;
+       -o-animation-fill-mode: both;
+          animation-fill-mode: both;
 
 }
 
@@ -1431,4 +1520,12 @@ transition:         opacity 1s;
 }
 
 .impress-enabled .step.active { opacity: 1 }
+
+.cursor-left{
+  cursor: w-resize;
+}
+
+.cursor-right{
+  cursor: e-resize;
+}
 
