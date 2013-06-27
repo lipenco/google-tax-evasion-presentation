@@ -1,0 +1,31 @@
+.progressbar {
+	position:absolute;
+	right:118px;
+	bottom:15px;
+	left:118px;
+	border-radius:7px;
+	border:2px solid rgba(100, 100, 100, 0.2);
+}
+.progressbar DIV {
+	width:0;
+	height:10px;
+	border-radius:5px;
+	background-color: #fdbb30;
+			background-image: -moz-linear-gradient(top, #f0a3a3, #fdbb30);
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #fdbb30),color-stop(1, #f42323));
+			background-image: -webkit-linear-gradient(#f0a3a3,#fdbb30);
+	-webkit-transition:width 1s linear;
+	-moz-transition:width 1s linear;
+	-ms-transition:width 1s linear;
+	-o-transition:width 1s linear;
+	transition:width 1s linear;
+}
+.progress-off {
+	z-index:2999;
+}
+.progress {
+	position:absolute;
+	right:50px;
+	bottom:15px;
+	text-align: right;
+}

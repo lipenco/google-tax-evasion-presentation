@@ -1,0 +1,261 @@
+
+<!doctype html>
+
+<html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Impress.js presentation</title>
+    <link rel="canonical" href="#" />
+    
+   <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/substeps.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/impress-progress.css" rel="stylesheet" />  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/gradient.js"></script>
+     
+
+    
+
+</head>
+<body  id="gradient">
+
+    
+<div id="sticky">
+<a href="/"><h1>Lipen.co Lab</h1></a>
+<div id="controls">
+<a href="#"  class="arrows" onClick="api.prev();"><--prev</a>
+  <a href="#"  class="arrows animated shake" onClick="api.next();">next--></a>
+</div>
+
+<nav>
+  <ul id="main_nav">
+    <li class="menu_link" id="home_link"><a href="/">HOME</a></li>
+    <li class="menu_link" id="c_link"><a href="http://lipen.co/">CONTACT</a></li>
+  </ul> 
+</nav>
+
+
+</div>
+<div id="impress" class="impress-not-supported">
+
+  <div id="slide1" class="step" data-x="5000" data-y="0" data-z="0" data-rotate-z="0" data-rotate-x="0" data-rotate-y="0" data-scale="1">
+       <div class="animated pulse"><h1>How Google Pays Taxes Where it Wants . . .
+        </h1> </div>
+                   
+    </div>
+                        
+   
+    <div id="slide2" class="step" data-x="-5000" data-y="0" data-z="0" data-rotate-z="-90" data-rotate-x="0" data-rotate-y="0" data-scale="5">
+   
+      <a> <h1>How much money did you spent on AdWords last year?</h1>  </a>
+        <a><p class="aboutpara" >Are you interested where did your money go?</p> </a>
+         <a><p class="certification">If you are from Europe you will likely be surprised.</p>
+      </a>
+  
+   </div>
+
+                         <script> 
+                          $("#slide2").hover(function(){
+                          $("h1").toggleClass("animated pulse");
+                           });
+                          </script>
+
+
+    <div id="slide3" class="step" data-x="-10000" data-y="200" data-z="0" data-rotate-z="180" data-rotate-x="-90" data-rotate-y="0" data-scale="1">
+      <h1 class="magic">Magic starts here</h1>  
+ 
+   <img class="map" src="img/eu.png" />   
+   <img class="ar" src="img/ar.png"> 
+   <img class="ar2" src="img/ar2.png"> 
+    <img class="ar3" src="img/ar3.png"> 
+      <p class="text">All the Google offices outside the USA sent their money to Irland</p>  
+      <br/>
+      <p class="text" >Why does it pay off?  </p> 
+      <p class="text2 substep"> Income taxes rates: </p> 
+    <ul class="skill">
+      <li><span class="expand irland"></span><em>Irland - 12.5%</em></li>
+      <li><span class="expand usa"></span><em>USA - 30%</em></li>
+      <li><span class="expand gb"></span><em>Great Britan - 28%</em></li>
+    </ul>
+  </div>
+
+                         <script> 
+                          $("#slide3").hover(function(){
+                          $(".text2").toggleClass("animated fadeInRightBig");
+                           });
+                          </script>
+                    
+
+
+      <div id="slide4" class="step slide" data-x="0" data-y="0" data-z="300" data-rotate-y="90"  data-scale="1">
+       <!--     <img src="img/Ireland.png" alt=""/>  -->
+         <div class="text"> 
+           <a><p> 90% of all revenue generated outside the USA comes to Google Ireland Limited</p> </a>
+            <p class="substep">but Google Ireland Limited doesn't pay tax from this ammount</p> 
+             <p class="substep"> It has to pay for technology licence to another Google Company - Google Ireland Holdings.</p>
+          </div> 
+        
+      </div>
+
+                      <script> 
+                          $("#slide4").keydown(function(){
+                          $(".substep").addClass("animated fadeInRightBig");
+                           });
+                          </script>
+
+
+        <div id="slide5" class="step slide" data-x="0" data-y="0" data-z="300" data-rotate-y="90"  data-scale="1">
+           <img src="img/Ireland.png" alt=""/>  
+    
+        </div>
+
+
+        <div id="slide5" class="step slide" data-x="-300" data-y="0" data-z="600" data-rotate-y="180"  data-scale="1">
+          
+             <a> <p> Why so complicated? Well...</p>  <p> Google Ireland Limited (the first company) has now bigger costs and can deduct it from the income.</p> <p>Lower income means lower tax.</p> </a> 
+
+
+
+       </div>
+
+
+        
+        <div id="slide6" class="step slide" data-x="-300" data-y="300" data-z="300" data-rotate-x="90" data-rotate-y="180"  data-scale="1">
+          
+        <a><p>The second company, Google Ireland Holdings, the owner of technology also operates in Irland. </p> </a>
+        <a> <p> Will it pay taxes?  Well, no! </p> </a>
+    <a> <p> It is only formally set up in Irland, this company is a tax resident in Bermudas.</p> </a>
+  
+          
+            </div>
+
+
+        <div id="slide7" class="step slide" data-x="-600" data-y="0" data-z="300" data-rotate-x="90" data-rotate-y="270"  data-scale="1">
+
+             
+          <a><p> But Irland tax law forbides tax deductions from licence costs when the second company is not from UE.</p></a>
+          <a><p> Fortunatelly Google does not have this restrictions in Holland </p> </a>
+       
+        
+            </div>
+
+
+        <div id="slide8" class="step slide" data-x="-300" data-y="-300" data-z="300" data-rotate-x="90" data-rotate-y="360" data-rotate-z="90" data-scale="1">
+
+             
+         <a> <p>Google has another branch in Holand so it is saved</p></a>
+
+        <a> <p> Google Netherlands B.V. is the connector between two Irland companes. </p> </a>
+        <a> <p> This is why we call it ‘Double Irish with a Dutch Sandwich’ </p> </a>
+
+        
+        </div>
+
+
+     <div id="slide9" class="step" data-x="8000" data-y="-700" data-z="100" data-rotate-z="0" data-rotate-x="-90" data-rotate-y="0" data-scale="1">
+                 <h2>So everythinks looks quite cool:</h2>  
+           
+               <img class="map" src="img/eu.png" alt=""/> 
+                 <img class="ar" src="img/ar.png"> 
+                 <img class="ar2" src="img/ar2.png"> 
+                  <img class="ar3" src="img/ar3.png"> 
+                  <img class="ar4" src="img/ar4.png"> 
+                    <img class="ar5" src="img/ar5.png"> 
+                       <img class="ar6" src="img/ar6.png"> 
+
+
+               <div class="text2">
+
+       <p class="text" > Google in Irland gets all the revenue form Europe </p>  
+           
+      <p class="substep"> Google Irland pays to Google Niderlands for technology</p>
+      <p class="substep"> Google Holand pass 98.9% of this money to the second Irland company</p>
+      <p class="substep"> The second Irland company is registered as a tax resident in Bermudes.</p>
+
+         </div>
+
+        </div>
+                <div id="slide10" class="step" data-x="0" data-y="-7000" data-z="8500" data-rotate-z="0" data-rotate-x="-90" data-rotate-y="0" data-scale="1">
+                  
+               
+                  <p>Tax rate in Bermudas</p> 
+                   <span class="baloon">O%</span>
+                  
+                    </div>
+
+                  
+              
+              <div id="slide11" class="step" data-x="-25000" data-y="6000" data-z="9350" data-rotate-z="-180" data-rotate-x="0" data-rotate-y="0" data-scale="4">
+
+                       
+                        <div class="photo"><img src="img/pan.png" /></div>
+                         <span id="per">0%?</span>
+                          <span id="percent">30%?</span>
+                         <p id="you">AND YOU</p> 
+                         
+                         <p id="tax">what are you doning to optimize your taxes?</p>                                          
+                               
+                            </div>
+                             </div>
+
+                      
+                       <script> 
+                          $("#slide11").hover(function(){
+                          $(".photo").toggleClass("animated bounce");
+                           });
+                          </script>
+
+
+<div class="hint">
+ <p>press next or use your arrow keys to navigate</p> 
+ <img id="arrow_hint"src="http://thepenthouseproject.com/wp-content/themes/thePHP_bones/library/images/hint_arrow.png" alt="" />
+ 
+ <img id="keyboard_hint" src="http://thepenthouseproject.com/wp-content/themes/thePHP_bones/library/images/hint_arrows.png" alt="" />
+       </div>
+
+<footer> 
+
+
+<div class="progressbar"><div></div></div>
+<div class="progress"></div>
+
+
+
+</footer>
+
+
+
+
+
+
+</div>
+<script>
+$("body").click(function(e){
+  console.log(window.innerWidth);
+  if ( e.screenX > (window.innerWidth / 2) ) {
+    api.next();
+  } else {
+    api.prev();
+  }
+});
+
+</script>
+
+
+<script src="js/impress.js"></script>
+<script src="js/impress-progress.js"></script>
+<script>impress().init();</script>
+<script>
+  var api = impress();
+</script>
+
+
+
+
+
+</body>
+</html>
+
