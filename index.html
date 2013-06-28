@@ -13,18 +13,23 @@
       <link href="css/impress-progress.css" rel="stylesheet" />  
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
       <script src="js/gradient.js"></script>
+     
 </head>
 
 <body  id="gradient">
  <div id="sticky">
-  <a href="/"><h1>Lipen.co Lab</h1></a>
+  <a href="/"><h1>Lipen.co Lab </h1></a>
   <div id="controls">
     <a href="#"  class="arrows" onClick="api.prev();"><--prev</a>
     <a href="#"  class="arrows animated shake" onClick="api.next();">next--></a>
   </div>
   <nav>
   <ul id="main_nav">
-    <li class="menu_link" id="home_link"><a href="/">HOME</a></li>
+   <!--  <li class="menu_link" id="home_link"><a href="/">HOME</a></li> -->
+    <li class="menu_link" id="home_link"><a href="https://twitter.com/share"  data-url="http://bit.ly/14do8RA" data-text="Lipen.co Lab presentation" data-via="lippenka" data-hashtags="design,impress.js">TWEET</a></li>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
     <li class="menu_link" id="c_link"><a href="http://lipen.co/">CONTACT</a></li>
   </ul> 
   </nav>
@@ -102,19 +107,22 @@
 
    <div id="slide6" class="step slide" data-x="-300" data-y="300" data-z="300" data-rotate-x="90" data-rotate-y="180"  data-scale="1">     
       <a><p>The second company,  <span class="green">Google Ireland Holdings</span>, the owner of the technology also operates in Ireland. </p> </a>
-      <a><p> Will it pay taxes?  Well, no! </p></a>
-      <a><p> It is only formally set up in Ireland, this company is a tax resident in Bermudas.</p></a>
+      <a><p> Will it pay taxes? </p></a>
+      <p class="substep"> Well, no! </p>
+      <p class="substep">  It is only formally set up in Ireland, this company is a tax resident in Bermudas.</p>
    </div>
 
 
   <div id="slide7" class="step slide" data-x="-600" data-y="0" data-z="300" data-rotate-x="90" data-rotate-y="270"  data-scale="1">
       <a><p> But Ireland tax law forbides tax deductions from licence costs when the second company is outside European Union.</p></a>
       <a><p>Fortunatelly tax law is different in Holland.</p></a>
+      <a><p>Google has another branch in Holland so it is saved</p></a>
   </div>
 
   <div id="slide8" class="step slide" data-x="-300" data-y="-300" data-z="300" data-rotate-x="90" data-rotate-y="360" data-rotate-z="90" data-scale="1"> 
     <div class="text">
-     <a><p>Google has another branch in Holland so it is saved</p></a>
+      <img class="sandwich" src="img/sandwich.png">
+      <img class="sandwich2" src="img/sandwich2.png">
      <a><p>Naw <span class="red">Google Ireland Limited</span> can deduct it's technology costs and send the money to Holland</p></a>
      <a><p> <span class="blue">Google Netherlands B.V.</span> will just send it back to Ireland to <span class="green">Google Ireland Holdings</span></p></a>
    </div>
@@ -127,14 +135,14 @@
         <img class="ar" src="img/ar.png"> 
         <img class="ar2" src="img/ar2.png"> 
         <img class="ar3" src="img/ar3.png"> 
-        <img class="ar4" src="img/ar4.png"> 
-        <img class="ar5" src="img/ar5.png"> 
-        <img class="ar6" src="img/ar6.png"> 
+     
+       
+        
       <div class="text2">
-        <p class="text" > Google in Ireland gets all the revenue form Europe </p>  
-        <p class="substep"> Google Ireland pays to Google Niderlands for technology</p>
-        <p class="substep"> Google Holland pass 98.9% of this money to the second Ireland company</p>
-        <p class="substep"> The second Ireland company is registered as a tax resident in Bermudes.</p>
+        <p class="text" ><span class="red">Google in Ireland</span> gets all the revenue form Europe </p>  
+        <p class="substep"> <span class="red">Google Ireland</span> pays to <span class="blue">Google Netherlands</span> for technology <img class="ar4" src="img/ar4.png"></p>
+        <p class="substep"> <span class="blue">Google Netherlands</span> pass 98.9% of this money to the second Ireland company  <img class="ar5" src="img/ar5.png">  </p>
+        <p class="substep"> The <span class="green">secong Ireland</span> company is registered as a tax resident in Bermudes. <img class="ar6" src="img/ar6.png"> </p>
       </div>
    </div>
                 
@@ -162,6 +170,7 @@
     <footer> 
         <div class="progressbar"><div></div></div>
         <div class="progress"></div>
+
     </footer>
   </div>
         <script>
@@ -189,6 +198,8 @@
         <script>
         var api = impress();
         </script>
+        <script type="text/javascript">stLight.options({publisher: "ur-7db1fe85-3987-190d-f370-17854993389", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+
 </body>
 </html>
 

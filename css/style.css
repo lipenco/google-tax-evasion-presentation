@@ -644,7 +644,7 @@ right: 5px;
 }
 
 #home_link {
-  height: 100px;
+  height: 250px;
   margin-right: 80px;
   -webkit-transition: all 0.5s ;  
      -moz-transition: all 0.5s ;  
@@ -1008,13 +1008,18 @@ margin-top: 8%;
 
 .red {
   color: red;
-  font-family: 'homesteadb';
+  font-family: 'homesteadp';
 }
 
 .green {
   color: green;
-  font-family: 'homesteadb';
+  font-family: 'homesteadp';
 }
+.blue {
+  color: yellow;
+  font-family: 'homesteadp';
+}
+
 
 #slide4.active a p {
 -webkit-transform: translateY(-30px);
@@ -1059,6 +1064,13 @@ font-family: 'homesteadp';
 opacity: 0;
 }
 
+#slide6 p {
+line-height: 40px;
+font-size: 26px;
+font-family: 'homesteadp';
+text-align: center;
+padding-top: 10px;
+}
 
 
 #slide6.active a p, #slide5.active a p {
@@ -1067,7 +1079,7 @@ opacity: 0;
 -ms-transform: translateY(-30px);
 transform: translateY(-30px);
 opacity: 1;
-margin-top: 10%;
+margin-top: 7%;
 -webkit-transition: all 1s linear;  
 -moz-transition: all 1s linear;  
 -ms-transition: all 1s linear;  
@@ -1099,10 +1111,13 @@ transform: translateY(-60px);
 
 line-height: 40px;
 font-size: 26px;
-font-family: 'homesteadb';
+font-family: 'homesteadp';
 opacity: 0;
 }
 
+#slide7.active a p {
+  margin-top: 12%;
+}
 
 #slide7.active a p, #slide8.active a p {
 -webkit-transform: translateY(-30px);
@@ -1110,7 +1125,6 @@ opacity: 0;
 -ms-transform: translateY(-30px);
 transform: translateY(-30px);
 opacity: 1;
-margin-top: 10%;
 -webkit-transition: all 1s linear;  
 -moz-transition: all 1s linear;  
 -ms-transition: all 1s linear;  
@@ -1123,31 +1137,52 @@ transition-delay: 1s;
 
 }
 
+#slide8.active a p {
+  margin-top: 20%;
+}
+
+#slide8 {
+  background-color: transparent;
+  border: none;
+}
+
 #slide8.active .text {
-  margin-top: 25%;
+  margin-top: 15%;
+}
+
+#slide8 .sandwich {
+  position: absolute;
+  top:76%;
+  left:1%;
+  width: 100%;
+}
+
+#slide8 .sandwich2 {
+  position: absolute;
+  top:38%;
+  width: 90%;
 }
 
 
 
 #slide8.active .sand {
+  background: url('../img/sandwich3.png') no-repeat;
+    -webkit-transition-delay: 4s;
+-moz-transition-delay: 4s;
+-ms-transition-delay: 4s;
+transition-delay: 4s;
   position: absolute;
-  top:-6%;
+  top:-17%;
   left:-1%;
   text-align: center;
-
-  
-    -webkit-transition-delay: 3s;
--moz-transition-delay: 3s;
--ms-transition-delay: 3s;
-transition-delay: 3s;
   -webkit-animation-name: rotateInDownRight;
   -moz-animation-name: rotateInDownRight;
   -o-animation-name: rotateInDownRight;
   animation-name: rotateInDownRight;
-   -webkit-animation-duration: 3s;
-     -moz-animation-duration: 3s;
-       -o-animation-duration: 3s;
-          animation-duration: 3s;
+   -webkit-animation-duration: 4s;
+     -moz-animation-duration: 4s;
+       -o-animation-duration: 4s;
+          animation-duration: 4s;
   -webkit-animation-fill-mode: both;
      -moz-animation-fill-mode: both;
        -o-animation-fill-mode: both;
