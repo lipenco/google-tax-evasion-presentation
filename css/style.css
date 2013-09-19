@@ -437,6 +437,11 @@ body {
     min-height: 740px;
     background: #58595b;
     -webkit-font-smoothing: antialiased;
+    background:url('../img/abstract.jpg');
+    
+    background-position:center center;
+    background-size:cover;
+   
 }
 
 ol, ul {
